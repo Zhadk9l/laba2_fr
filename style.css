@@ -1,0 +1,95 @@
+.f-line {
+    background-color: #228f8f;
+    color: #421A03;
+}
+.f-line:hover{
+    background-color: #f5f522;
+}
+.s-line{
+    background-color: #f5f522;
+    color: #250942;
+}
+.s-line:hover{
+    background-color: #228f8f;
+}
+
+
+/*POSITION*/
+.flag-p {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.red-background-p {
+    background-color: rgb(175, 18, 18);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.horizontal-p {
+    background-color: white; /* Белая линия */
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -50px; 
+    border-radius: 5%;
+    
+}
+
+.vertical-p {
+    background-color: white; /* Белая линия */
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px; 
+    margin-left: -20px; 
+    border-radius: 5%;
+}
+
+/*TRANSFORM*/
+.flag-t {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.red-background-t{
+    background-color: rgb(175, 18, 18);
+    width: 100%;
+    height: 100%;
+
+}
+.white-stripe {
+    background-color: white; /* Цвет креста на флаге */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-origin: center center; /* Определяем центр трансформации */
+}
+
+.horizontal-t {
+    width: 100px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Позиционируем по центру флага */
+    transform-origin: center center; /* Определяем центр трансформации */
+    border-radius: 5%; /* Закругление краев */
+}
+
+.vertical-t {
+    width: 40px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Позиционируем по центру флага */
+    transform-origin: center center; /* Определяем центр трансформации */
+    border-radius: 5%; /* Закругление краев */
+}
